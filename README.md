@@ -36,7 +36,7 @@ G.H. Raisoni College of Engineering, Nagpur
 
 **DevOps & Cloud**
 - Git, GitHub, Linux
-- AWS (Fundamentals)
+- AWS (Fundamentals) - EC2, Elastic Beanwalk, VPS, CouldWatch,S3 , etc
 
 **AI / ML & LLMs**
 - Azure OpenAI
