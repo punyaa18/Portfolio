@@ -2,7 +2,7 @@
 
 # 👋 Hi, I'm Punyaa Dixit
 
-🎓 Computer Science Engineering Student | 🤖 AI & Automation Enthusiast | ☁️ Cloud & DevOps Learner
+🎓 Computer Science Engineering Student |  AI & Automation Enthusiast |  Cloud & DevOps Learner
 
 📍 Nagpur, India  
 📧 Email: punyaa184@gmail.com  
@@ -11,7 +11,7 @@
 
 ---
 
-## 🚀 About Me
+##  About Me
 
 I am a **Computer Science Engineering student** with hands-on experience in **AI integration, Microsoft Power Platform, and DevOps fundamentals**.  
 I enjoy building **automation-first, scalable systems** using **LLMs, cloud technologies, and low-code platforms**, and I am actively exploring real-world AI applications in enterprise and infrastructure environments.
@@ -28,7 +28,7 @@ G.H. Raisoni College of Engineering, Nagpur
 
 ---
 
-## 🛠️ Technical Skills
+##  Technical Skills
 
 **Programming & Frameworks**
 - Java, Python
@@ -57,7 +57,7 @@ G.H. Raisoni College of Engineering, Nagpur
 
 ---
 
-## 💼 Experience
+##  Experience
 
 ### Infrastructure Engineer Intern  
 **TIU Consulting** | Dec 2025 – Aug 2026 *(Ongoing)*
@@ -78,7 +78,7 @@ G.H. Raisoni College of Engineering, Nagpur
 
 ---
 
-## 🧠 Projects
+##  Projects
 
 - **AI-Integrated IT Ticketing System**  
   Automated ticket classification and routing using Azure OpenAI sentiment analysis.
@@ -100,7 +100,7 @@ G.H. Raisoni College of Engineering, Nagpur
 
 ---
 
-## 📜 Certifications
+##  Certifications
 
 - AI Agents & Generative AI – Microsoft, Azure OpenAI, Udemy
 - Microsoft Power Platform – Power Apps, Power Automate, AI Builder
@@ -108,7 +108,7 @@ G.H. Raisoni College of Engineering, Nagpur
 
 ---
 
-## ✍️ Writing & Contributions
+##  Writing & Contributions
 
 - **Author at Perficient Blogs**  
   Tutorials and case studies on Power Platform, LLMs, and Microsoft Fabric  
@@ -120,4 +120,5 @@ G.H. Raisoni College of Engineering, Nagpur
 ---
 
 ⭐ *Always learning, building, and exploring AI-driven automation.*
+
 
