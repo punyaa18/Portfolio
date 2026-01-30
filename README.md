@@ -121,5 +121,3 @@ G.H. Raisoni College of Engineering, Nagpur
 
 ⭐ *Always learning, building, and exploring AI-driven automation.*
 
-
->>>>>>> 15cad904cf66eb2e1bfc013ee0dce92e5a1e59d1
