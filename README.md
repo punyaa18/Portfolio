@@ -1,71 +1,62 @@
-# Punyaa Dixit - Portfolio
+Punyaa Dixit
+punyaa184@gmail.com | +91 7020014869 | linkedin.com/in/punyaa-dixit |
 
-A professional and creative portfolio website showcasing my skills, experience, and projects as a Computer Science Engineering student specializing in AI integration and Microsoft Power Platform development.
+Career Objective
+Computer Science Engineering student with hands-on experience in AI integration, Microsoft Power Platform,
+and DevOps fundamentals. Passionate about building scalable, automation-first solutions using LLMs, cloud
+technologies, and low-code platforms.
 
-## Features
+Education B. Tech – Computer Science Engineering
+G.H. Raisoni College of Engineering, Nagpur, Maharashtra
+2022 – 2026 | CGPA: 9.63 / 10.0
+• 3rd Year Department Topper (Rank 1/200)
 
-- **Responsive Design**: Optimized for desktop, tablet, and mobile devices
-- **Modern UI**: Clean, professional design with smooth animations and gradients
-- **Interactive Elements**: Smooth scrolling navigation, mobile menu, and scroll animations
-- **Sections**: Home, About, Skills, Experience, Projects, Certifications, and Contact
+Technical Skills
+• Languages: Java, Python ,Flask , Nodejs
+• DevOps & Cloud: Git, GitHub, Linux, AWS
+• AI/ML & LLMs: Azure OpenAI, Ollama (local LLM integration), AI Builder
+• Microsoft Technologies: Power Automate, Power Apps, Microsoft Fabric, Dataverse
+• Tools: VS Code, Vapi AI, Make.com, Copilot Studio
+• Professional Skills: Analytical Thinking, Technical Documentation, Problem Solving
 
-## Technologies Used
+Experience
+Intern –Infrastructure Engineer | TIU Consulting | Dec 2025 – Aug 2026 (Ongoing)
+• Working on DevOps & cloud infrastructure fundamentals, including Git, GitHub workflows, Linux
+administration, and AWS services.
+• Supporting CI/CD-oriented development practices and version-controlled deployments.
+• Gaining hands-on exposure to infra + AI, bridging backend systems with applied AI use cases.
 
-- HTML5
-- CSS3 (with animations and responsive design)
-- JavaScript (for interactivity)
-- Font Awesome (for icons)
-- Google Fonts (Roboto)
+Intern – Software Engineering | Perficient | May 2025 – August 2025
+• Designed enterprise workflows by integrating AI and LLMs into Power Platform solutions.
+• Automated processes with Power Automate and Dataverse, enhanced with Copilot-driven insights.
+• Authored technical blogs and solution guides published on Perficient' s official platform.
 
-## Setup Instructions
+Volunteer Teacher | Renovatio | Jan 2024-May 2025
+• Taught underprivileged children basic computer literacy, including Microsoft Office, and internet use.
+• Created engaging, hands-on lessons to make technology learning accessible. Improved students’ digital
+confidence while developing strong communication and leadership skills.
 
-1. **Clone or Download**: Place all files in your web server directory or open `index.html` directly in a browser.
+Projects
+• AI-Integrated IT Ticketing System – Automated support ticket routing with Azure OpenAI sentiment
+analysis, reducing manual triage.
+• Custom Ollama Model Development – Built local LLMs with Modelfile for domain-specific, offline
+AI processing.
+• Microsoft Copilot Solutions (Cars & Health/Wellness) – Designed Copilot-powered assistants
+delivering smart automotive insights and personalized wellness recommendations.
+• Interview Workflow Automation – Created an end-to-end interview system with scheduling, Q&A,
+and evaluation using Power Platform + LLMs.
+• AI Calling Assistant – Integrated Vapi AI + Make.com to enable automated calling, real-time
+conversation handling, and data capture.
+• Resume Parsing (PoC) (TIU Consulting)-Built an LLM-powered resume parsing pipeline to extract
+structured candidate data (skills, experience, education).
 
-2. **Add Profile Image**:
-   - Replace `profile.jpg` with your professional photo
-   - Recommended size: 300x300 pixels
-   - Format: JPG, PNG, or WebP
-   - If no image is available, the site will gracefully hide the image placeholder
+Certifications
+• AI Agents & Generative AI (Microsoft, Azure OpenAI, Udemy)
+• Microsoft Power Platform: Power Apps, Power Automate, AI Builder
+• Supervised Machine Learning (Coursera)
 
-3. **Customize Content**:
-   - Edit `index.html` to update personal information, projects, and contact details
-   - Modify `styles.css` for color scheme or layout changes
-   - Adjust `script.js` for additional interactivity
-
-## File Structure
-
-```
-portfolio/
-├── index.html      # Main HTML file
-├── styles.css      # CSS styles and animations
-├── script.js       # JavaScript for interactivity
-├── profile.jpg     # Profile image (add your photo)
-└── README.md       # This file
-```
-
-## Browser Support
-
-- Chrome (recommended)
-- Firefox
-- Safari
-- Edge
-
-## Deployment
-
-You can deploy this portfolio to:
-- GitHub Pages
-- Netlify
-- Vercel
-- Any static web hosting service
-
-## Contact
-
-Feel free to reach out for collaborations or opportunities!
-
-- Email: punyaa184@gmail.com
-- LinkedIn: [linkedin.com/in/punyaa-dixit](https://linkedin.com/in/punyaa-dixit)
-- GitHub: [github.com/punyaa18](https://github.com/punyaa18)
-
----
-
-© 2026 Punyaa Dixit. All rights reserved.
+Activities, Blogging & Contributions
+• Author at Perficient Blogs – Tutorials and case studies on Power Platform, LLMs, and
+Fabric integrations. blogs.perficient.com/author/pdixit/
+• GitHub Portfolio – Academic and personal projects. github.com/punyaa18
+• Active in hackathons, coding competitions, and AI communities.
