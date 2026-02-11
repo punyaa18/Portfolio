@@ -60,7 +60,7 @@ G.H. Raisoni College of Engineering, Nagpur
 ##  Experience
 
 ### Infrastructure Engineer Intern  
-**TIU Consulting** | Dec 2025 – Aug 2026 *(Ongoing)*
+**TIU Consulting** | Dec 2025 – Present
 - Working on DevOps and cloud infrastructure fundamentals including Git/GitHub workflows, Linux administration, and AWS services.
 - Supporting CI/CD-oriented development practices and version-controlled deployments.
 - Gaining exposure to infrastructure + AI by bridging backend systems with applied AI use cases.
