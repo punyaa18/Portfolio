@@ -124,5 +124,72 @@ style.textContent = `
             box-shadow: none !important;
         }
     }
+
+    .copyable {
+        cursor: pointer;
+        transition: all 0.3s ease;
+        position: relative;
+    }
+
+    .copyable:hover {
+        transform: translateY(-2px);
+        background: rgba(74, 144, 226, 0.1);
+        border-radius: 10px;
+    }
+
+    .copyable.copied::after {
+        content: 'Copied!';
+        position: absolute;
+        top: -30px;
+        left: 50%;
+        transform: translateX(-50%);
+        background: #4a90e2;
+        color: white;
+        padding: 5px 10px;
+        border-radius: 5px;
+        font-size: 12px;
+        white-space: nowrap;
+        animation: fadeInOut 2s ease-in-out;
+    }
+
+    @keyframes fadeInOut {
+        0% { opacity: 0; transform: translateX(-50%) translateY(-5px); }
+        20% { opacity: 1; transform: translateX(-50%) translateY(0); }
+        80% { opacity: 1; transform: translateX(-50%) translateY(0); }
+        100% { opacity: 0; transform: translateX(-50%) translateY(-5px); }
+    }
 `;
 document.head.appendChild(style);
+
+// Copy to clipboard function
+function copyToClipboard(text, element) {
+    navigator.clipboard.writeText(text).then(() => {
+        element.classList.add('copied');
+        setTimeout(() => {
+            element.classList.remove('copied');
+        }, 2000);
+    }).catch(err => {
+        console.error('Failed to copy:', err);
+    });
+}
+
+// Toggle projects visibility
+function toggleProjects() {
+    const hiddenProjects = document.querySelectorAll('.hidden-project');
+    const showMoreBtn = document.getElementById('showMoreBtn');
+    
+    hiddenProjects.forEach(project => {
+        if (project.style.display === 'none' || project.style.display === '') {
+            project.style.display = 'block';
+            project.style.animation = 'fadeInUp 0.8s ease forwards';
+        } else {
+            project.style.display = 'none';
+        }
+    });
+    
+    if (showMoreBtn.textContent === 'Show More Projects') {
+        showMoreBtn.textContent = 'Show Less Projects';
+    } else {
+        showMoreBtn.textContent = 'Show More Projects';
+    }
+}

@@ -528,6 +528,18 @@ section h2::after {
     margin-bottom: 15px;
 }
 
+.project-logo {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+
+.ollama-icon, .project-icon {
+    width: 60px;
+    height: 60px;
+    object-fit: contain;
+}
+
 .project-card p {
     color: #555;
     margin-bottom: 20px;
@@ -548,9 +560,25 @@ section h2::after {
     font-weight: 500;
 }
 
+.hidden-project {
+    display: none;
+}
+
 .projects-button {
     text-align: center;
     margin-top: 40px;
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#showMoreBtn {
+    transition: all 0.3s ease;
+}
+
+#showMoreBtn:hover {
+    transform: translateY(-2px);
 }
 
 /* Certifications Section */

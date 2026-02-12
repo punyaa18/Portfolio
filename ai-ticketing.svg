@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 150">
+  <rect width="200" height="150" fill="#0078D4"/>
+  
+  <!-- Document/Ticket Icons -->
+  <rect x="20" y="25" width="30" height="35" fill="#FFF" rx="3"/>
+  <line x1="25" y1="32" x2="45" y2="32" stroke="#0078D4" stroke-width="2"/>
+  <line x1="25" y1="38" x2="45" y2="38" stroke="#0078D4" stroke-width="2"/>
+  <line x1="25" y1="44" x2="40" y2="44" stroke="#0078D4" stroke-width="2"/>
+  <circle cx="48" cy="35" r="5" fill="#DC3545"/>
+  
+  <rect x="20" y="70" width="30" height="35" fill="#FFF" rx="3"/>
+  <line x1="25" y1="77" x2="45" y2="77" stroke="#0078D4" stroke-width="2"/>
+  <line x1="25" y1="83" x2="45" y2="83" stroke="#0078D4" stroke-width="2"/>
+  <line x1="25" y1="89" x2="40" y2="89" stroke="#0078D4" stroke-width="2"/>
+  <circle cx="48" cy="80" r="5" fill="#DC3545"/>
+  
+  <!-- Envelope/Message Icon -->
+  <circle cx="100" cy="35" r="18" fill="#FFF"/>
+  <path d="M 88 30 L 100 38 L 112 30 L 112 40 L 88 40 Z" fill="#0078D4"/>
+  <circle cx="110" cy="28" r="3" fill="#DC3545"/>
+  
+  <!-- File/Box Icon -->
+  <rect x="75" y="65" width="25" height="20" fill="#FFF" rx="2"/>
+  <rect x="80" y="70" width="15" height="3" fill="#FFA500"/>
+  <rect x="80" y="75" width="15" height="3" fill="#FFA500"/>
+  <circle cx="103" cy="68" r="3" fill="#DC3545"/>
+  
+  <!-- AI/Robot Icon (center) -->
+  <rect x="125" y="55" width="30" height="35" fill="#FFF" rx="5"/>
+  <circle cx="135" cy="68" r="3" fill="#0078D4"/>
+  <circle cx="145" cy="68" r="3" fill="#0078D4"/>
+  <line x1="133" y1="78" x2="147" y2="78" stroke="#0078D4" stroke-width="2"/>
+  <line x1="140" y1="55" x2="140" y2="50" stroke="#FFF" stroke-width="2"/>
+  <circle cx="140" cy="47" r="3" fill="#FFF"/>
+  
+  <!-- Customer/User Icon -->
+  <circle cx="180" cy="55" r="12" fill="#FFF"/>
+  <circle cx="180" cy="52" r="5" fill="#B3D9FF"/>
+  <path d="M 170 62 Q 180 58 190 62 L 190 67 L 170 67 Z" fill="#B3D9FF"/>
+  
+  <!-- Checkmark Icon -->
+  <circle cx="180" cy="95" r="18" fill="#FFF"/>
+  <path d="M 173 95 L 178 100 L 188 88" stroke="#28A745" stroke-width="3" fill="none" stroke-linecap="round"/>
+  
+  <!-- Document Icon -->
+  <rect x="155" y="120" width="25" height="20" fill="#FFF" rx="2"/>
+  <line x1="160" y1="127" x2="175" y2="127" stroke="#0078D4" stroke-width="1.5"/>
+  <line x1="160" y1="132" x2="175" y2="132" stroke="#0078D4" stroke-width="1.5"/>
+  
+  <!-- Connections (dashed lines) -->
+  <line x1="50" y1="42" x2="82" y2="35" stroke="#FF6B6B" stroke-width="2" stroke-dasharray="3,3"/>
+  <line x1="50" y1="87" x2="75" y2="75" stroke="#FF6B6B" stroke-width="2" stroke-dasharray="3,3"/>
+  <line x1="118" y1="35" x2="130" y2="60" stroke="#FF6B6B" stroke-width="2" stroke-dasharray="3,3"/>
+  <line x1="100" y1="85" x2="125" y2="75" stroke="#FF6B6B" stroke-width="2" stroke-dasharray="3,3"/>
+  
+  <!-- Solid connections -->
+  <line x1="155" y1="72" x2="168" y2="55" stroke="#FFF" stroke-width="2.5"/>
+  <line x1="155" y1="72" x2="162" y2="95" stroke="#FFF" stroke-width="2.5"/>
+  <line x1="180" y1="113" x2="170" y2="130" stroke="#FFF" stroke-width="2.5"/>
+</svg>

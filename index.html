@@ -198,6 +198,9 @@
             <h2>Projects</h2>
             <div class="projects-grid">
                 <div class="project-card">
+                    <div class="project-logo">
+                        <img src="ai-ticketing.svg" alt="AI Ticketing" class="project-icon">
+                    </div>
                     <h3>AI-Integrated IT Ticketing System</h3>
                     <p>Automated support ticket routing with Azure OpenAI sentiment analysis, reducing manual triage.</p>
                     <div class="tech-stack">
@@ -206,6 +209,9 @@
                     </div>
                 </div>
                 <div class="project-card">
+                    <div class="project-logo">
+                        <img src="ollama-logo.svg" alt="Ollama Logo" class="ollama-icon">
+                    </div>
                     <h3>Custom Ollama Model Development</h3>
                     <p>Built local LLMs with Modelfile for domain-specific, offline AI processing.</p>
                     <div class="tech-stack">
@@ -214,6 +220,9 @@
                     </div>
                 </div>
                 <div class="project-card">
+                    <div class="project-logo">
+                        <i class="fab fa-microsoft" style="font-size: 48px; color: #00A4EF;"></i>
+                    </div>
                     <h3>Microsoft Copilot Solutions (Cars & Health/Wellness)</h3>
                     <p>Designed Copilot-powered assistants delivering smart automotive insights and personalized wellness recommendations.</p>
                     <div class="tech-stack">
@@ -222,6 +231,9 @@
                     </div>
                 </div>
                 <div class="project-card">
+                    <div class="project-logo">
+                        <i class="fas fa-robot" style="font-size: 48px; color: #6C5CE7;"></i>
+                    </div>
                     <h3>Interview Workflow Automation</h3>
                     <p>Created an end-to-end interview system with scheduling, Q&A, and evaluation using Power Platform + LLMs.</p>
                     <div class="tech-stack">
@@ -230,6 +242,9 @@
                     </div>
                 </div>
                 <div class="project-card">
+                    <div class="project-logo">
+                        <i class="fas fa-phone-volume" style="font-size: 48px; color: #00B894;"></i>
+                    </div>
                     <h3>AI Calling Assistant</h3>
                     <p>Integrated Vapi AI + Make.com to enable automated calling, real-time conversation handling, and data capture.</p>
                     <div class="tech-stack">
@@ -238,6 +253,9 @@
                     </div>
                 </div>
                 <div class="project-card">
+                    <div class="project-logo">
+                        <i class="fas fa-file-alt" style="font-size: 48px; color: #FD79A8;"></i>
+                    </div>
                     <h3>Resume Parsing (PoC) (TIU Consulting)</h3>
                     <p>Built an LLM-powered resume parsing pipeline to extract structured candidate data (skills, experience, education).</p>
                     <div class="tech-stack">
@@ -246,6 +264,9 @@
                     </div>
                 </div>
                 <div class="project-card">
+                    <div class="project-logo">
+                        <img src="ollama-logo.svg" alt="Ollama Logo" class="ollama-icon">
+                    </div>
                     <h3>ollama-resume-parser (Public)</h3>
                     <p>A local RAG-based resume parser and evaluator built using Ollama (Llama 3), FAISS, and LangChain. Supports automated resume ingestion, job matching, scoring, and structured JSON outputs.</p>
                     <div class="tech-stack">
@@ -254,7 +275,10 @@
                         <span>FAISS</span>
                     </div>
                 </div>
-                <div class="project-card">
+                <div class="project-card hidden-project">
+                    <div class="project-logo">
+                        <i class="fab fa-chrome" style="font-size: 48px; color: #4285F4;"></i>
+                    </div>
                     <h3>ChromeAIExtension (Private)</h3>
                     <p>An AI-powered Chrome extension designed to integrate intelligent features directly into the browser.</p>
                     <div class="tech-stack">
@@ -262,7 +286,10 @@
                         <span>AI</span>
                     </div>
                 </div>
-                <div class="project-card">
+                <div class="project-card hidden-project">
+                    <div class="project-logo">
+                        <i class="fab fa-aws" style="font-size: 48px; color: #FF9900;"></i>
+                    </div>
                     <h3>blogify-node-aws (Public)</h3>
                     <p>A Node.js blogging application deployed on AWS, demonstrating backend development and cloud deployment.</p>
                     <div class="tech-stack">
@@ -270,7 +297,10 @@
                         <span>AWS</span>
                     </div>
                 </div>
-                <div class="project-card">
+                <div class="project-card hidden-project">
+                    <div class="project-logo">
+                        <i class="fas fa-code" style="font-size: 48px; color: #A29BFE;"></i>
+                    </div>
                     <h3>punyaa18 (Public)</h3>
                     <p>A personal repository containing experiments, learning projects, and technical utilities.</p>
                     <div class="tech-stack">
@@ -278,7 +308,10 @@
                         <span>Experiments</span>
                     </div>
                 </div>
-                <div class="project-card">
+                <div class="project-card hidden-project">
+                    <div class="project-logo">
+                        <i class="fas fa-graduation-cap" style="font-size: 48px; color: #2ECC71;"></i>
+                    </div>
                     <h3>GFG21 (Public)</h3>
                     <p>A repository focused on problem-solving, data structures, and algorithm practice.</p>
                     <div class="tech-stack">
@@ -286,7 +319,10 @@
                         <span>Algorithms</span>
                     </div>
                 </div>
-                <div class="project-card">
+                <div class="project-card hidden-project">
+                    <div class="project-logo">
+                        <i class="fas fa-cogs" style="font-size: 48px; color: #E74C3C;"></i>
+                    </div>
                     <h3>github-actions-demo-project (Public)</h3>
                     <p>A demo project showcasing GitHub Actions and CI/CD automation workflows.</p>
                     <div class="tech-stack">
@@ -296,6 +332,7 @@
                 </div>
             </div>
             <div class="projects-button">
+                <button id="showMoreBtn" class="btn-secondary" onclick="toggleProjects()">Show More Projects</button>
                 <a href="https://github.com/punyaa18?tab=repositories" target="_blank" class="btn-primary">View All GitHub Repositories</a>
             </div>
         </div>
@@ -388,13 +425,9 @@
         <div class="container">
             <h2>Get In Touch</h2>
             <div class="contact-info">
-                <div class="contact-item">
+                <div class="contact-item copyable" onclick="copyToClipboard('punyaa184@gmail.com', this)" title="Click to copy">
                     <i class="fas fa-envelope"></i>
                     <p>punyaa184@gmail.com</p>
-                </div>
-                <div class="contact-item">
-                    <i class="fas fa-phone"></i>
-                    <p>+91 7020014869</p>
                 </div>
                 <div class="contact-item">
                     <i class="fab fa-linkedin"></i>
