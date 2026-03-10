@@ -560,6 +560,22 @@ section h2::after {
     font-weight: 500;
 }
 
+.project-link {
+    display: inline-block;
+    margin-top: 16px;
+    background: #3498db;
+    color: white;
+    padding: 8px 16px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: 500;
+    transition: background 0.3s ease;
+}
+
+.project-link:hover {
+    background: #2980b9;
+}
+
 .hidden-project {
     display: none;
 }
